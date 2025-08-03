@@ -63,15 +63,14 @@ main {
   max-width: 700px;
 }
 
-.post-preview,
-.post {
+.post-preview {
   max-width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
-  .post-preview,
-  .post {
+  .post-preview {
     max-width: 1000px;
   }
 }
@@ -79,7 +78,6 @@ main {
 .post-preview h1 {
   font-size: 2rem;
   margin-bottom: 0.25rem;
-  text-align: center;
 }
 
 .post-preview time {
