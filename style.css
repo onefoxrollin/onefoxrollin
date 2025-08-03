@@ -63,6 +63,19 @@ main {
   max-width: 700px;
 }
 
+.post-preview,
+.post {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .post-preview,
+  .post {
+    max-width: 1000px;
+  }
+}
+
 .post-preview h1 {
   font-size: 2rem;
   margin-bottom: 0.25rem;
