@@ -116,8 +116,8 @@ main {
     position: fixed;
     z-index: 999;
   }
-  .nav-toggle:checked + .sidebar {
-    transform: translateX(0);
+  .nav-toggle:checked + .nav-toggle-label + .sidebar {
+  transform: translateX(0);
   }
   .nav-toggle-label {
     display: block;
