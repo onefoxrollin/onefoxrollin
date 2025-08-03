@@ -116,6 +116,7 @@ main {
     transform: translateX(-100%);
     position: fixed;
     z-index: 999;
+    margin-top: 3.5rem;
   }
   .nav-toggle:checked + .nav-toggle-label + .sidebar {
   transform: translateX(0);
