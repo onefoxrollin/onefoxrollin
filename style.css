@@ -66,6 +66,7 @@ main {
 .post-preview h1 {
   font-size: 2rem;
   margin-bottom: 0.25rem;
+  align-content: center;
 }
 
 .post-preview time {
