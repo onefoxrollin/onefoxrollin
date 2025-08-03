@@ -2,25 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Simple Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Blog - Latest Post</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple, mobile-friendly page hosted with GitHub Pages.</p>
-  </header>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+  <nav class="sidebar">
+    <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+    <h2>My Blog</h2>
+    <ul>
+      <li><a href="index.html" class="active">Latest Post</a></li>
+      <li><a href="posts/first-post.html">First Post</a></li>
+      <li><a href="posts/another-post.html">Another Post</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
   <main>
-    <section>
-      <h2>About</h2>
-      <p>This section can include information about you or your project.</p>
-    </section>
+    <article class="post-preview">
+      <h1>My Latest Blog Post</h1>
+      <time datetime="2025-08-01">August 1, 2025</time>
+      <p>
+        This is a quick excerpt from my latest blog post. It gives a sneak peek
+        so you want to read more.
+      </p>
+      <a href="posts/first-post.html" class="read-more">Read More →</a>
+    </article>
   </main>
-
-  <footer>
-    <p>&copy; 2025 Your Name</p>
-  </footer>
 </body>
 </html>
