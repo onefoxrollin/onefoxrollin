@@ -69,12 +69,6 @@ main {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .post-preview {
-    max-width: 1000px;
-  }
-}
-
 .post-preview h1 {
   font-size: 2rem;
   margin-bottom: 0.25rem;
